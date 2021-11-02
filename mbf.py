@@ -80,7 +80,7 @@ def login():
     print('==================================================')
     print('[1] Login Pakai Token')
     print('[2] Login Pakai Cookies')
-    print('[3] Subscribe My Channel')
+    print('[3] Cara Mengambil Token')
     print('[0] Keluar')
     print('==================================================')
     lg = raw_input('[?] Input : ')
@@ -134,7 +134,7 @@ def login():
                 exit('[x] Koneksi Error')
     elif lg == '3' or lg == '03':
 	print('\nAnda Akan Di Arahkan Ke Browser')
-	os.system("xdg-open https://youtu.be/AvbOLuRpsS4")
+	os.system("xdg-open https://youtu.be/oR9aqr9yC8E")
 	exit()
     elif lg == '0' or lg == '00':
         exit()
